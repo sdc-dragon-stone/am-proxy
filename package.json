@@ -10,7 +10,7 @@
   "scripts": {
     "start": "nodemon server/index.js",
     "react-dev": "webpack -d --watch",
-    "test": "mocha test/test.js --exit"
+    "test-backend": "mocha test/test.js --exit"
   },
   "dependencies": {
     "express": "^4.16.4",
