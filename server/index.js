@@ -5,9 +5,7 @@ const port = 3010;
 
 app.use(express.static('./public'));
 
-const randNum = () => {
-  return Math.floor(Math.random() * Math.floor(100));
-};
+// const randNum = () => Math.floor(Math.random() * Math.floor(100));
 
 app.get('/', (req, res) => {
   res.status(200).send('This is the proxy server!');

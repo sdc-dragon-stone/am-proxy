@@ -26,6 +26,6 @@ class App extends React.Component {
       <div>Hello World!</div>
     );
   }
-};
+}
 
 ReactDOM.render(<App />, document.getElementById('app'));
