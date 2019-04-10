@@ -1,0 +1,18 @@
+#container {
+  margin-left: 13%;
+  padding: 10px;
+  float: left;
+}
+
+#book {
+  padding: 10px;
+  margin-right: 13%;
+  float:right;
+  position: sticky;
+  top: 0;
+  width: 400px;
+}
+
+#morehomes {
+  clear: both;
+}
