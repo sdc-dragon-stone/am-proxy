@@ -7,12 +7,12 @@ const port = 3010;
 
 app.use(express.static('./public'));
 
-app.get('/description', (req, res) => {
-  apiProxy.web(req, res, { target: 'http://localhost:3210' });
+app.get('/house_images', (req, res) => {
+  apiProxy.web(req, res, { target: 'http://localhost:3003' });
 });
 
-app.get('/totalReviews', (req, res) => {
-  apiProxy.web(req, res, { target: 'http://localhost:3004' });
+app.get('/description', (req, res) => {
+  apiProxy.web(req, res, { target: 'http://localhost:3210' });
 });
 
 app.get('/totalReviews', (req, res) => {
