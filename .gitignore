@@ -10,6 +10,7 @@ pids
 *.pid
 logs
 *.log
+public/nav.js
 public/descriptions.js
 public/images.js
 public/morehomes.js
