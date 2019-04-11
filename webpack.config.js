@@ -4,6 +4,7 @@ module.exports = {
   mode: 'development',
   entry: {
     vendor: ['styled-components'],
+    nav: '../m-nav/client/nav.jsx',
     images: '../j-service/client/src/app.jsx',
     descriptions: '../m-service/client/index.jsx',
     reviews: '../v-service/client/app.jsx',
