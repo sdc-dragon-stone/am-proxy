@@ -8,7 +8,7 @@ const port = 3010;
 app.use(express.static('./public'));
 
 app.get('/house_images', (req, res) => {
-  apiProxy.web(req, res, { target: 'http://localhost:3003' });
+  apiProxy.web(req, res, { target: 'http://ec2-54-175-40-167.compute-1.amazonaws.com:3003/' });
 });
 
 app.get('/description', (req, res) => {
