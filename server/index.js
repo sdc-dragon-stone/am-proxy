@@ -7,9 +7,9 @@ const port = 3010;
 
 app.use(express.static('./public'));
 
-// app.get('/house_images', (req, res) => {
-//   apiProxy.web(req, res, { target: 'http://52.87.228.239:3003/' });
-// });
+app.get('/house_images', (req, res) => {
+  apiProxy.web(req, res, { target: 'http://52.87.228.239:3003/' });
+});
 
 app.get('/description', (req, res) => {
   apiProxy.web(req, res, { target: 'http://18.188.174.153:3210/' });
