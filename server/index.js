@@ -7,16 +7,16 @@ const port = 3010;
 
 app.use(express.static('./public'));
 
-// app.get('/house_images', (req, res) => {
-//   apiProxy.web(req, res, { target: 'http://ec2-54-175-40-167.compute-1.amazonaws.com:3003/' });
-// });
+app.get('/house_images', (req, res) => {
+  apiProxy.web(req, res, { target: 'http://52.87.228.239:3003/' });
+});
 
 app.get('/description', (req, res) => {
-  apiProxy.web(req, res, { target: 'http://18.220.111.23:3210/' });
+  apiProxy.web(req, res, { target: 'http://18.188.174.153:3210/' });
 });
 
 app.get('/totalReviews', (req, res) => {
-  apiProxy.web(req, res, { target: 'http://reviews.pfuzgfpajh.us-west-2.elasticbeanstalk.com/' });
+  apiProxy.web(req, res, { target: 'http://52.10.65.36/' });
 });
 
 app.get('/moreHomes', (req, res) => {
