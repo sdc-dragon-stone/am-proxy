@@ -4,12 +4,12 @@ module.exports = {
   mode: 'development',
   entry: {
     vendor: ['styled-components'],
-    nav: '../m-nav/client/nav.jsx',
-    images: '../j-service/client/src/app.jsx',
-    descriptions: '../m-service/client/index.jsx',
-    reviews: '../v-service/client/app.jsx',
-    booking: '../m-booking/client/booking.jsx',
-    morehomes: '../a-service/client/MoreHomes.jsx'
+    // nav: '../m-nav/client/nav.jsx',
+    // images: '../j-service/client/src/app.jsx',
+    // descriptions: '../m-service/client/index.jsx',
+    reviews: '../am-service/client/app.jsx'
+    // booking: '../m-booking/client/booking.jsx',
+    // morehomes: '../a-service/client/MoreHomes.jsx'
   },
   externals: {
     'styled-components': 'styled'
