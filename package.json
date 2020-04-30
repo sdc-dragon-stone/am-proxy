@@ -22,7 +22,7 @@
     "file-loader": "^3.0.1",
     "http-proxy": "^1.17.0",
     "http-proxy-middleware": "^0.19.1",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "lorem-hipsum": "^0.1.7",
     "newrelic": "^5.10.0",
     "random-date-generator": "^1.0.2",
