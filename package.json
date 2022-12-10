@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "artillery": "^1.6.0-28",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "faker": "^4.1.0",
     "file-loader": "^3.0.1",
     "http-proxy": "^1.17.0",
